@@ -1,0 +1,129 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+#navbar_links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#navbar_links:visited {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#navbar_logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+
+.page_title {
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  display: grid;
+  justify-content: center;
+}
+
+.register {
+  display: grid;
+  justify-content: center;
+}
+
+.login_input {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 300px;
+  height: 30px;
+}
+
+.login_button {
+  width: 310px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.errorMessage {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.routine_results {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.routine {
+  padding: 5px;
+  border-bottom: 1px black solid;
+  margin: 10px;
+  box-shadow: 6px 6px grey;
+  border: 2px solid black;
+}
+
+.activity_results {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.activity {
+  padding: 5px;
+  border-bottom: 1px black solid;
+  margin: 10px;
+  box-shadow: 6px 6px grey;
+  border: 2px solid black;
+}
+
+.addActivity {
+  padding-left: 40px;
+  padding-right: 30px;
+  margin-bottom: 50px;
+}
+
+.addActivityInput {
+  margin-right: 10px;
+}
+
+.addRoutine {
+  padding-left: 50px;
+  padding-right: 30px;
+  margin-bottom: 50px;
+}
+
+.myRoutine_results {
+  display: grid;
+  padding-left: 45px;
+  padding-right: 50px;
+}
+
+.myRoutinesFunctions {
+  margin-top: 20px;
+  margin-right: 25px;
+
+  display: grid;
+  grid-template-columns: 10% 2% 10% 2% 10% 68%;
+}
+
+select {
+  width: 200px;
+}
